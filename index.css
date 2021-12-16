@@ -1,0 +1,134 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: black; 
+    margin: 12px;
+
+}
+
+ nav{
+    background-color:rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+  
+    
+}
+
+
+#head1{
+    float:right
+    
+}
+nav ol{
+    
+    float: right;
+   
+    margin-right: 25px;
+}
+nav ol li{
+    display: inline-block;
+    line-height: 0px;
+    margin: 0 3px;
+    
+}
+nav ol li a{
+    color:rgb(241, 247, 241);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 50px;
+
+    
+} 
+a.head, a:hover{
+    border-bottom: 5px solid red;
+    transition: 2ms;
+
+}
+label.logo{
+    color :white ;
+    font-size: 34px; 
+    line-height: 12;
+    font-weight: 200;
+    padding: 0 100px;
+}
+#admin{
+    color: white;
+    text-align: center;
+    
+    background-color: #4444;
+}
+#skill{
+    color: white;
+    text-align:left ;
+    float: right;
+    width: 30%;
+    line-height:25px;
+    margin: 12px;
+    height: 100px;
+}
+#about{
+    color: white;
+    float: left;
+    width: 60%;
+    line-height:25px;
+    display: block; 
+    margin: 5px;
+
+    
+    
+    
+
+}
+h1{
+    border-left: 5px solid red; 
+    font-size: large; 
+}
+
+
+#why{
+    color: white;
+    float: left;
+    width: 60%;
+    line-height:25px;
+    margin: 5px;
+    
+}
+#social{
+    color: white;
+    float: right;
+    width: 30%;
+    line-height:25px;
+    margin: 12px;
+    height: 100px;
+    
+   
+    
+}
+#p{
+    line-height: 30px;
+    color:red;
+
+}
+footer{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 500px;
+
+}
+h3{
+    margin-left: 650px;
+}
+ul{
+    text-align: center;
+}
